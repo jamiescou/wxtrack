@@ -50,7 +50,9 @@ class Tracker extends Wrapper {
       }
     }
   }
-
+  add(track) {
+    this.tracks.push(track)
+  }
   /**
    * 获取当前页面的埋点配置
    * @param {String} type 返回的埋点配置，options: method/element
